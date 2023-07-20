@@ -66,7 +66,7 @@ All the application routes are defined in the [web.php](/routes/web.php) file.
 
 4- Recreate the Symbolic Link between the '[storage/app/public](storage/app/public)' directory and '[public/storage](public/storage)' directory by removing/deleting the [public/storage](public/storage) directory first, then run the '***php artisan storage:link***' command.
 
-5- Run the '***php artisan serve***' command.
+5- Run the '***php artisan serve***' command, and then open your browser and visit **http://127.0.0.1:8000** to access the Instagram Clone application.
 
 \*\* Ready-to-use registered accounts credentials you can use to log in:
 > **Profile 1**: Email Address: **test@test.com**, Password: **11111111**
