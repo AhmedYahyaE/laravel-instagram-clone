@@ -1,0 +1,1488 @@
+1
+00:00:01,319 --> 00:00:03,500
+foreign
+
+2
+00:00:10,400 --> 00:00:11,780
+[Music]
+
+3
+00:00:11,780 --> 00:00:15,299
+ER series and we are going to end this
+
+4
+00:00:15,299 --> 00:00:17,520
+series very soon but we are going to
+
+5
+00:00:17,520 --> 00:00:19,859
+start this separate series along with
+
+6
+00:00:19,859 --> 00:00:22,740
+this one or after uh adding the 200
+
+7
+00:00:22,740 --> 00:00:24,660
+videos we are going to add the separate
+
+8
+00:00:24,660 --> 00:00:27,779
+series and that is the laravel multi
+
+9
+00:00:27,779 --> 00:00:30,480
+vendor add-on features in that we are
+
+10
+00:00:30,480 --> 00:00:32,579
+going to add the add-on features and
+
+11
+00:00:32,579 --> 00:00:34,200
+also we are going to resolve the bugs
+
+12
+00:00:34,200 --> 00:00:38,579
+whatever bugs uh we have identified here
+
+13
+00:00:38,579 --> 00:00:40,440
+in the multivender e-commerce series
+
+14
+00:00:40,440 --> 00:00:42,840
+that we are going to resolve there and
+
+15
+00:00:42,840 --> 00:00:44,940
+also we are going to add some of the
+
+16
+00:00:44,940 --> 00:00:47,520
+major important add-on features in this
+
+17
+00:00:47,520 --> 00:00:49,020
+separate series if you want to watch
+
+18
+00:00:49,020 --> 00:00:51,000
+Okay so
+
+19
+00:00:51,000 --> 00:00:53,820
+in this video we are going to integrate
+
+20
+00:00:53,820 --> 00:00:56,640
+the test Auditor in laurable and that is
+
+21
+00:00:56,640 --> 00:01:00,059
+Tiny MC and CK editor first of all I'm
+
+22
+00:01:00,059 --> 00:01:01,620
+going to tell you that what is the test
+
+23
+00:01:01,620 --> 00:01:04,680
+editor X actually see here you can see
+
+24
+00:01:04,680 --> 00:01:07,500
+the CMS page is here okay we have this
+
+25
+00:01:07,500 --> 00:01:09,479
+CMS page here and here is the content
+
+26
+00:01:09,479 --> 00:01:11,280
+that we have added from the early panel
+
+27
+00:01:11,280 --> 00:01:14,640
+and now if in case we want to make
+
+28
+00:01:14,640 --> 00:01:17,400
+content like bold we want to make some
+
+29
+00:01:17,400 --> 00:01:20,400
+of the content bold italic means we uh
+
+30
+00:01:20,400 --> 00:01:22,860
+we want to give some styling some style
+
+31
+00:01:22,860 --> 00:01:25,500
+some CSS style to our content and also
+
+32
+00:01:25,500 --> 00:01:28,140
+we want to integrate the add the image
+
+33
+00:01:28,140 --> 00:01:30,960
+as well along with the content so we
+
+34
+00:01:30,960 --> 00:01:33,360
+want to design that page so that is
+
+35
+00:01:33,360 --> 00:01:34,799
+possible with the help of the test
+
+36
+00:01:34,799 --> 00:01:37,560
+editor that we are going to integrate in
+
+37
+00:01:37,560 --> 00:01:39,659
+our multivender equals website without
+
+38
+00:01:39,659 --> 00:01:43,560
+test editor it is not complete okay so I
+
+39
+00:01:43,560 --> 00:01:45,240
+am going to login into then I'm going to
+
+40
+00:01:45,240 --> 00:01:48,000
+show you that see this test editor I am
+
+41
+00:01:48,000 --> 00:01:49,920
+going to add in the CMS pages but you
+
+42
+00:01:49,920 --> 00:01:52,860
+can add anywhere after integrate you can
+
+43
+00:01:52,860 --> 00:01:56,700
+just copy paste whatever class or ID we
+
+44
+00:01:56,700 --> 00:01:59,220
+are going to use okay so we are going to
+
+45
+00:01:59,220 --> 00:02:02,040
+add the script as well so here
+
+46
+00:02:02,040 --> 00:02:04,680
+I'm going to show you this Pages
+
+47
+00:02:04,680 --> 00:02:07,740
+management and here see in CMS Pages we
+
+48
+00:02:07,740 --> 00:02:09,660
+are going to integrate this editor here
+
+49
+00:02:09,660 --> 00:02:12,360
+in the air CMS page and edit CMS page
+
+50
+00:02:12,360 --> 00:02:14,760
+here you can see the description test
+
+51
+00:02:14,760 --> 00:02:18,420
+area that you can't add any kind of
+
+52
+00:02:18,420 --> 00:02:22,260
+styling into this okay uh so uh for that
+
+53
+00:02:22,260 --> 00:02:24,660
+we are going to add the test editor and
+
+54
+00:02:24,660 --> 00:02:27,599
+I am telling you there are two editors
+
+55
+00:02:27,599 --> 00:02:29,459
+two famous editor available in the
+
+56
+00:02:29,459 --> 00:02:32,459
+market okay top two Auditors that is the
+
+57
+00:02:32,459 --> 00:02:36,300
+tiny uh tiny MC tiny MC I think the
+
+58
+00:02:36,300 --> 00:02:37,980
+wrong mistakes are spelling mistake tiny
+
+59
+00:02:37,980 --> 00:02:41,700
+MC I need to see the tiny MC yeah tiny
+
+60
+00:02:41,700 --> 00:02:45,120
+MC and the second one is the CK editor
+
+61
+00:02:45,120 --> 00:02:48,840
+okay so these two editors are uh
+
+62
+00:02:48,840 --> 00:02:52,260
+available okay online okay so famous
+
+63
+00:02:52,260 --> 00:02:55,200
+editor so I'm going to search like if
+
+64
+00:02:55,200 --> 00:02:58,640
+even if I will search something like uh
+
+65
+00:02:58,640 --> 00:03:02,459
+laravel test editor okay I'm going to
+
+66
+00:03:02,459 --> 00:03:04,440
+check it like this that which editor
+
+67
+00:03:04,440 --> 00:03:05,819
+will come at the top lowerable test
+
+68
+00:03:05,819 --> 00:03:10,319
+editor okay so here I'm going to see the
+
+69
+00:03:10,319 --> 00:03:13,019
+tiny MC editor is coming at the top okay
+
+70
+00:03:13,019 --> 00:03:15,840
+so we are going to integrate this editor
+
+71
+00:03:15,840 --> 00:03:17,060
+straight away
+
+72
+00:03:17,060 --> 00:03:20,519
+and here is the documentation see easy
+
+73
+00:03:20,519 --> 00:03:22,860
+easy documentation not that much complex
+
+74
+00:03:22,860 --> 00:03:25,980
+okay here you can see the script that we
+
+75
+00:03:25,980 --> 00:03:30,000
+need to add in our uh files layout dot
+
+76
+00:03:30,000 --> 00:03:32,099
+blade dot file I think where we are
+
+77
+00:03:32,099 --> 00:03:34,440
+adding all the scripts okay so here one
+
+78
+00:03:34,440 --> 00:03:36,840
+more script I am going to add I'm going
+
+79
+00:03:36,840 --> 00:03:39,239
+to add this one this script that is
+
+80
+00:03:39,239 --> 00:03:42,480
+available here okay in this website in
+
+81
+00:03:42,480 --> 00:03:45,420
+tiny MC website okay I am going to paste
+
+82
+00:03:45,420 --> 00:03:47,159
+this credit okay
+
+83
+00:03:47,159 --> 00:03:50,940
+so now I'm going to check that how to
+
+84
+00:03:50,940 --> 00:03:55,040
+integrate so I can just use this ID
+
+85
+00:03:55,040 --> 00:03:59,760
+wherever I want so see this ID must be
+
+86
+00:03:59,760 --> 00:04:02,640
+here as well test area my editor so see
+
+87
+00:04:02,640 --> 00:04:05,159
+you need to create this separate ID if
+
+88
+00:04:05,159 --> 00:04:08,340
+you want uh want to integrate to
+
+89
+00:04:08,340 --> 00:04:11,580
+multiple places okay so because ID is
+
+90
+00:04:11,580 --> 00:04:13,980
+just for one okay so I'm going to open
+
+91
+00:04:13,980 --> 00:04:17,699
+here add edit CMS page okay I'm going to
+
+92
+00:04:17,699 --> 00:04:20,579
+open this one and here I will go to the
+
+93
+00:04:20,579 --> 00:04:23,940
+description will see here and here in
+
+94
+00:04:23,940 --> 00:04:25,919
+place of this here I am going to replace
+
+95
+00:04:25,919 --> 00:04:28,919
+this ID description with the ID my
+
+96
+00:04:28,919 --> 00:04:30,840
+editor instance I am going to refresh
+
+97
+00:04:30,840 --> 00:04:33,840
+now I will see that I able to integrate
+
+98
+00:04:33,840 --> 00:04:36,120
+the test editor into it and you can see
+
+99
+00:04:36,120 --> 00:04:38,280
+that I able to integrate this test
+
+100
+00:04:38,280 --> 00:04:41,220
+editor okay beautiful test editor and
+
+101
+00:04:41,220 --> 00:04:44,699
+now see you can see this is the test
+
+102
+00:04:44,699 --> 00:04:48,960
+page okay I am going to add it and now I
+
+103
+00:04:48,960 --> 00:04:50,759
+can do anything like I can make it bold
+
+104
+00:04:50,759 --> 00:04:53,880
+as well okay I can change the heading
+
+105
+00:04:53,880 --> 00:04:57,000
+like this one I can add another option
+
+106
+00:04:57,000 --> 00:05:00,660
+like I can add the LI or some I can add
+
+107
+00:05:00,660 --> 00:05:03,120
+the table as well okay so there are many
+
+108
+00:05:03,120 --> 00:05:05,580
+options are available that I can add I
+
+109
+00:05:05,580 --> 00:05:09,120
+can add the noodle okay so so this kind
+
+110
+00:05:09,120 --> 00:05:11,280
+of basic things are available in this
+
+111
+00:05:11,280 --> 00:05:13,860
+test editor you can make the test board
+
+112
+00:05:13,860 --> 00:05:17,960
+italic okay and I think you can even
+
+113
+00:05:17,960 --> 00:05:21,660
+give the test color uh like like this
+
+114
+00:05:21,660 --> 00:05:24,240
+okay you can able to format the test as
+
+115
+00:05:24,240 --> 00:05:28,139
+well okay you can see uh you can uh you
+
+116
+00:05:28,139 --> 00:05:31,620
+if you want to see like its code then
+
+117
+00:05:31,620 --> 00:05:34,440
+you can I think you can see its code as
+
+118
+00:05:34,440 --> 00:05:36,120
+well so there are many options are
+
+119
+00:05:36,120 --> 00:05:38,460
+available here you can see many options
+
+120
+00:05:38,460 --> 00:05:40,320
+are available you can try all the
+
+121
+00:05:40,320 --> 00:05:43,199
+options uh that are available in this
+
+122
+00:05:43,199 --> 00:05:46,979
+simple tiny MC test editor okay and once
+
+123
+00:05:46,979 --> 00:05:49,139
+you you will save this one then you can
+
+124
+00:05:49,139 --> 00:05:51,600
+check at the front end okay so I'm going
+
+125
+00:05:51,600 --> 00:05:54,300
+to edit uh some other page like I'm
+
+126
+00:05:54,300 --> 00:05:57,419
+going to edit here this about us about
+
+127
+00:05:57,419 --> 00:06:00,000
+us content I am going to audit okay so
+
+128
+00:06:00,000 --> 00:06:02,220
+I'm going to close this one and this
+
+129
+00:06:02,220 --> 00:06:04,919
+test I'm going to make it bold italic
+
+130
+00:06:04,919 --> 00:06:07,740
+and also I want to change its color I'm
+
+131
+00:06:07,740 --> 00:06:11,160
+going to check here that what I can do
+
+132
+00:06:11,160 --> 00:06:13,380
+for changing the color and here I will
+
+133
+00:06:13,380 --> 00:06:17,580
+go uh we'll check here the test color
+
+134
+00:06:17,580 --> 00:06:20,280
+I'm going to make it red okay so now I'm
+
+135
+00:06:20,280 --> 00:06:22,680
+going to save this one and click on
+
+136
+00:06:22,680 --> 00:06:25,020
+submit okay and here I'm going to
+
+137
+00:06:25,020 --> 00:06:28,620
+refresh here uh see it is not coming
+
+138
+00:06:28,620 --> 00:06:30,660
+because we need to update here as well
+
+139
+00:06:30,660 --> 00:06:34,680
+we need to update in a blade file at the
+
+140
+00:06:34,680 --> 00:06:37,800
+front Okay so here this one these tags
+
+141
+00:06:37,800 --> 00:06:39,660
+will not work laravel text will not work
+
+142
+00:06:39,660 --> 00:06:43,460
+we need to add the PHP tags Echo because
+
+143
+00:06:43,460 --> 00:06:46,680
+the HTML content it will not support or
+
+144
+00:06:46,680 --> 00:06:49,440
+we need to do it like this now it will
+
+145
+00:06:49,440 --> 00:06:52,139
+score now we are going to see see the
+
+146
+00:06:52,139 --> 00:06:55,319
+test is now beautiful test we able to
+
+147
+00:06:55,319 --> 00:06:57,960
+update from the admin panel and here you
+
+148
+00:06:57,960 --> 00:07:01,860
+can see that we able to update uh here
+
+149
+00:07:01,860 --> 00:07:04,199
+in see be able to update here and the
+
+150
+00:07:04,199 --> 00:07:06,000
+same it has been appeared at the front
+
+151
+00:07:06,000 --> 00:07:07,620
+end as well so this is the difference
+
+152
+00:07:07,620 --> 00:07:11,639
+between the normal okay we can able to
+
+153
+00:07:11,639 --> 00:07:14,880
+upgrade uh here like this okay
+
+154
+00:07:14,880 --> 00:07:18,840
+so now uh see we are going to integrate
+
+155
+00:07:18,840 --> 00:07:21,840
+uh the better editor than this one with
+
+156
+00:07:21,840 --> 00:07:23,699
+load other option this is a simple
+
+157
+00:07:23,699 --> 00:07:25,500
+editor that you can integrate with the
+
+158
+00:07:25,500 --> 00:07:27,539
+uh see within few steps you can
+
+159
+00:07:27,539 --> 00:07:29,699
+integrate but here if you want to
+
+160
+00:07:29,699 --> 00:07:33,599
+integrate the advanced tiny MC then you
+
+161
+00:07:33,599 --> 00:07:36,000
+need to pay some amount so but we are
+
+162
+00:07:36,000 --> 00:07:38,220
+going to check out CK editor that is
+
+163
+00:07:38,220 --> 00:07:40,740
+available free with many more options
+
+164
+00:07:40,740 --> 00:07:43,740
+okay here if you will try to integrate
+
+165
+00:07:43,740 --> 00:07:47,639
+the advanced uh then it there is the
+
+166
+00:07:47,639 --> 00:07:50,940
+pricing but we will try now with this CK
+
+167
+00:07:50,940 --> 00:07:54,539
+editor okay laravel CK editor uh so that
+
+168
+00:07:54,539 --> 00:07:56,639
+I am going to integrate now straight
+
+169
+00:07:56,639 --> 00:07:59,340
+away okay for you so I'm going to show
+
+170
+00:07:59,340 --> 00:08:03,360
+you laravel CK editor here let's open
+
+171
+00:08:03,360 --> 00:08:05,460
+this laravel CK editor five
+
+172
+00:08:05,460 --> 00:08:07,979
+documentation we can open this one okay
+
+173
+00:08:07,979 --> 00:08:13,460
+so now uh we are going to see here
+
+174
+00:08:13,460 --> 00:08:17,460
+we will open this security editor c ah
+
+175
+00:08:17,460 --> 00:08:21,000
+this one CK editor so I will try this
+
+176
+00:08:21,000 --> 00:08:23,699
+secure editor okay so now we are going
+
+177
+00:08:23,699 --> 00:08:27,060
+to integrate this CK editor okay so what
+
+178
+00:08:27,060 --> 00:08:28,680
+I'm going to do
+
+179
+00:08:28,680 --> 00:08:31,500
+I'm going to replace this one with the
+
+180
+00:08:31,500 --> 00:08:34,679
+CK editor okay uh so in layout bed file
+
+181
+00:08:34,679 --> 00:08:37,679
+I'm going to remove this one see uh if
+
+182
+00:08:37,679 --> 00:08:39,958
+you want to use this tiny MC editor then
+
+183
+00:08:39,958 --> 00:08:42,240
+you can also use it but you can also use
+
+184
+00:08:42,240 --> 00:08:44,099
+the security as well it's your choice
+
+185
+00:08:44,099 --> 00:08:47,880
+okay so what I'm going to do I'm going
+
+186
+00:08:47,880 --> 00:08:50,399
+to add its uh
+
+187
+00:08:50,399 --> 00:08:52,380
+files okay
+
+188
+00:08:52,380 --> 00:08:54,839
+so we can also do that at one place we
+
+189
+00:08:54,839 --> 00:08:56,640
+can integrate the secure editor
+
+190
+00:08:56,640 --> 00:08:58,620
+Advantage I can integrate the tiny MC
+
+191
+00:08:58,620 --> 00:09:00,959
+okay so if someone want to integrate the
+
+192
+00:09:00,959 --> 00:09:03,660
+10 EMC he can integrate that if someone
+
+193
+00:09:03,660 --> 00:09:05,640
+want to integrate the SEC editor that
+
+194
+00:09:05,640 --> 00:09:07,620
+that person can able to integrate the CL
+
+195
+00:09:07,620 --> 00:09:13,339
+data as well okay so I'm looking for
+
+196
+00:09:13,339 --> 00:09:16,019
+one more thing I am going to like I'm
+
+197
+00:09:16,019 --> 00:09:18,540
+going with the examples
+
+198
+00:09:18,540 --> 00:09:22,140
+CGR editor 5 installation
+
+199
+00:09:22,140 --> 00:09:25,800
+I'm going to click on this one and here
+
+200
+00:09:25,800 --> 00:09:27,360
+uh
+
+201
+00:09:27,360 --> 00:09:30,899
+and go to C start installation available
+
+202
+00:09:30,899 --> 00:09:33,600
+customize option integration with
+
+203
+00:09:33,600 --> 00:09:35,519
+popular JavaScript updating secure
+
+204
+00:09:35,519 --> 00:09:39,839
+editor 5 Kickstart okay so here in quick
+
+205
+00:09:39,839 --> 00:09:42,600
+start uh yeah this one so I'm looking
+
+206
+00:09:42,600 --> 00:09:45,779
+for this one uh so I will use the CDN
+
+207
+00:09:45,779 --> 00:09:48,060
+path for three editor as well note this
+
+208
+00:09:48,060 --> 00:09:50,360
+one I'm going to use this
+
+209
+00:09:50,360 --> 00:09:54,600
+CDN path okay so here uh this one also
+
+210
+00:09:54,600 --> 00:09:56,660
+I'm going to copy this one as well okay
+
+211
+00:09:56,660 --> 00:10:00,120
+so now see where you want to integrate
+
+212
+00:10:00,120 --> 00:10:02,640
+the security okay so if you want to
+
+213
+00:10:02,640 --> 00:10:05,760
+integrate for the CMS page then we can
+
+214
+00:10:05,760 --> 00:10:09,300
+integrate it okay then see this one I am
+
+215
+00:10:09,300 --> 00:10:11,339
+just commenting this one because if in
+
+216
+00:10:11,339 --> 00:10:14,160
+case in future you want to use this
+
+217
+00:10:14,160 --> 00:10:16,560
+editor you can simply disable that
+
+218
+00:10:16,560 --> 00:10:18,360
+secret editor and enable this one okay
+
+219
+00:10:18,360 --> 00:10:20,700
+so I'm just commenting this one this one
+
+220
+00:10:20,700 --> 00:10:22,740
+will also work
+
+221
+00:10:22,740 --> 00:10:27,420
+okay so now see this one here I am going
+
+222
+00:10:27,420 --> 00:10:30,420
+to integrate this editor so this editor
+
+223
+00:10:30,420 --> 00:10:34,380
+uh just I think ID we need to make the
+
+224
+00:10:34,380 --> 00:10:36,899
+change in ID and now I'm going to check
+
+225
+00:10:36,899 --> 00:10:39,060
+the another editor okay so I'm going to
+
+226
+00:10:39,060 --> 00:10:41,640
+check here we'll see the another editor
+
+227
+00:10:41,640 --> 00:10:45,660
+now and here is another editor for you
+
+228
+00:10:45,660 --> 00:10:48,600
+okay so this is the CK editor for you
+
+229
+00:10:48,600 --> 00:10:51,240
+there are many options but still this is
+
+230
+00:10:51,240 --> 00:10:53,220
+the simple one there is the advanced
+
+231
+00:10:53,220 --> 00:10:54,959
+editor as well we are going to indicate
+
+232
+00:10:54,959 --> 00:10:58,920
+the advanced editor okay so let's
+
+233
+00:10:58,920 --> 00:11:00,899
+integrate the advanced secure data now
+
+234
+00:11:00,899 --> 00:11:03,600
+straight away uh I'm going to show you
+
+235
+00:11:03,600 --> 00:11:07,440
+uh the advanced security uh
+
+236
+00:11:07,440 --> 00:11:11,600
+I I think here it is okay
+
+237
+00:11:11,899 --> 00:11:15,240
+yeah we are going to integrate this one
+
+238
+00:11:15,240 --> 00:11:18,720
+okay so I'm going to add its style so
+
+239
+00:11:18,720 --> 00:11:21,120
+I'm going to add style uh where we want
+
+240
+00:11:21,120 --> 00:11:22,920
+the CK editor here we want this secret
+
+241
+00:11:22,920 --> 00:11:25,560
+editor so I'm going to add this styling
+
+242
+00:11:25,560 --> 00:11:26,820
+here only okay
+
+243
+00:11:26,820 --> 00:11:28,440
+so
+
+244
+00:11:28,440 --> 00:11:31,700
+you can add it in your CSS file as well
+
+245
+00:11:31,700 --> 00:11:34,380
+so now
+
+246
+00:11:34,380 --> 00:11:37,680
+uh this one editor is fine and this one
+
+247
+00:11:37,680 --> 00:11:40,380
+is the script complete script we are
+
+248
+00:11:40,380 --> 00:11:43,440
+going to copy this complete script and
+
+249
+00:11:43,440 --> 00:11:46,200
+we are going to replace the basics UK
+
+250
+00:11:46,200 --> 00:11:48,540
+editor with the advanced okay this one I
+
+251
+00:11:48,540 --> 00:11:50,519
+am going to replace it with the advanced
+
+252
+00:11:50,519 --> 00:11:53,040
+so now I am going to refresh and we'll
+
+253
+00:11:53,040 --> 00:11:54,180
+see here
+
+254
+00:11:54,180 --> 00:11:57,959
+uh the CK editor with many options and
+
+255
+00:11:57,959 --> 00:12:00,300
+here you can see now the secret editor
+
+256
+00:12:00,300 --> 00:12:02,760
+is full of option and here you can see
+
+257
+00:12:02,760 --> 00:12:05,459
+the many options are coming here in this
+
+258
+00:12:05,459 --> 00:12:08,399
+CK editor okay so now this is the
+
+259
+00:12:08,399 --> 00:12:10,800
+advanced secure data and you can see the
+
+260
+00:12:10,800 --> 00:12:13,140
+number of options too many options are
+
+261
+00:12:13,140 --> 00:12:16,260
+here okay so we will try some of the
+
+262
+00:12:16,260 --> 00:12:18,180
+options here
+
+263
+00:12:18,180 --> 00:12:20,760
+so even I don't know that
+
+264
+00:12:20,760 --> 00:12:24,260
+what options are available so we need to
+
+265
+00:12:24,260 --> 00:12:27,180
+see insert HTML HTML option is also
+
+266
+00:12:27,180 --> 00:12:30,480
+there okay you can straight away add raw
+
+267
+00:12:30,480 --> 00:12:34,200
+HTML here if you know the htmlc uh I I
+
+268
+00:12:34,200 --> 00:12:36,660
+think every one of you know the HTML who
+
+269
+00:12:36,660 --> 00:12:38,640
+is watching this series so we can also
+
+270
+00:12:38,640 --> 00:12:42,060
+add the HTML tags here okay so other
+
+271
+00:12:42,060 --> 00:12:44,399
+than that I'm going to check out see
+
+272
+00:12:44,399 --> 00:12:47,399
+this one I'm going to remove and I can
+
+273
+00:12:47,399 --> 00:12:51,720
+simply undo here like this okay so this
+
+274
+00:12:51,720 --> 00:12:53,459
+content first of all we are going to
+
+275
+00:12:53,459 --> 00:12:55,200
+modify this content okay
+
+276
+00:12:55,200 --> 00:12:58,079
+see ball uh I'm going to make it
+
+277
+00:12:58,079 --> 00:13:00,000
+underline underline is already working I
+
+278
+00:13:00,000 --> 00:13:02,940
+am going to make its color change now
+
+279
+00:13:02,940 --> 00:13:04,620
+okay color change is done okay
+
+280
+00:13:04,620 --> 00:13:06,480
+background color we have able to set
+
+281
+00:13:06,480 --> 00:13:11,160
+okay and front color uh anything else
+
+282
+00:13:11,160 --> 00:13:16,200
+and here okay uh so style we can also
+
+283
+00:13:16,200 --> 00:13:20,579
+change font uh phone 22 so this one also
+
+284
+00:13:20,579 --> 00:13:23,220
+updated so first of all we are going to
+
+285
+00:13:23,220 --> 00:13:24,899
+update this one and we'll see the
+
+286
+00:13:24,899 --> 00:13:28,620
+changes are coming here so see with the
+
+287
+00:13:28,620 --> 00:13:30,660
+help of the CK editor be able to update
+
+288
+00:13:30,660 --> 00:13:34,019
+the content okay so now you can see uh
+
+289
+00:13:34,019 --> 00:13:36,660
+the more options are there in this
+
+290
+00:13:36,660 --> 00:13:39,180
+secure editor okay many options are
+
+291
+00:13:39,180 --> 00:13:40,620
+there
+
+292
+00:13:40,620 --> 00:13:43,079
+so other than this we are going to try
+
+293
+00:13:43,079 --> 00:13:45,959
+other options as well okay you can even
+
+294
+00:13:45,959 --> 00:13:48,720
+change the language wow you can even
+
+295
+00:13:48,720 --> 00:13:52,680
+change it to French uh see check out
+
+296
+00:13:52,680 --> 00:13:56,160
+once that maybe some of the options will
+
+297
+00:13:56,160 --> 00:13:59,880
+not work okay uh see source code see
+
+298
+00:13:59,880 --> 00:14:01,380
+source code we can able to see the
+
+299
+00:14:01,380 --> 00:14:03,959
+source code as well okay we can do one
+
+300
+00:14:03,959 --> 00:14:07,200
+thing like we can we can design one page
+
+301
+00:14:07,200 --> 00:14:10,380
+and copies its content and can paste
+
+302
+00:14:10,380 --> 00:14:12,680
+here then page automatically convert to
+
+303
+00:14:12,680 --> 00:14:16,860
+uh the uh like we can able to see see
+
+304
+00:14:16,860 --> 00:14:19,680
+its design as well okay after after
+
+305
+00:14:19,680 --> 00:14:23,760
+converting back to the visual okay so ah
+
+306
+00:14:23,760 --> 00:14:25,980
+now other than this I'm going to check
+
+307
+00:14:25,980 --> 00:14:29,100
+the other option here like okay we can
+
+308
+00:14:29,100 --> 00:14:33,320
+also add the media URL okay and
+
+309
+00:14:33,320 --> 00:14:37,680
+uh okay so I don't know much about these
+
+310
+00:14:37,680 --> 00:14:40,139
+option but you can try all the option
+
+311
+00:14:40,139 --> 00:14:45,139
+okay let's try to insert the image here
+
+312
+00:14:45,540 --> 00:14:49,199
+so we are going to try one image here
+
+313
+00:14:49,199 --> 00:14:53,220
+maybe we can able to see image is also
+
+314
+00:14:53,220 --> 00:14:57,180
+coming here okay so we can uh we will
+
+315
+00:14:57,180 --> 00:15:00,300
+insert some other image here uh
+
+316
+00:15:00,300 --> 00:15:02,940
+let's see
+
+317
+00:15:02,940 --> 00:15:05,279
+okay I'm going to
+
+318
+00:15:05,279 --> 00:15:08,240
+integrate
+
+319
+00:15:28,139 --> 00:15:30,120
+see I'm going to integrate this image so
+
+320
+00:15:30,120 --> 00:15:32,100
+let's see
+
+321
+00:15:32,100 --> 00:15:34,800
+I'm going to submit and we'll see that
+
+322
+00:15:34,800 --> 00:15:37,019
+whether the image will also integrate or
+
+323
+00:15:37,019 --> 00:15:39,199
+not
+
+324
+00:15:40,620 --> 00:15:44,279
+uh so it is showing because data too
+
+325
+00:15:44,279 --> 00:15:47,760
+long so that's why so we need to update
+
+326
+00:15:47,760 --> 00:15:51,120
+uh uh too long that I am going to check
+
+327
+00:15:51,120 --> 00:15:55,160
+it CMS page is here and here we need to
+
+328
+00:15:55,160 --> 00:15:59,220
+use the uh long test instead of test we
+
+329
+00:15:59,220 --> 00:16:02,519
+need to integrate the long test okay uh
+
+330
+00:16:02,519 --> 00:16:06,800
+long test okay so now I will try uh to
+
+331
+00:16:06,800 --> 00:16:10,019
+do it try to update continue and we'll
+
+332
+00:16:10,019 --> 00:16:13,139
+see yes this time is done and I'm going
+
+333
+00:16:13,139 --> 00:16:15,540
+to check it here as well see it's
+
+334
+00:16:15,540 --> 00:16:17,820
+working fine we're able to integrate the
+
+335
+00:16:17,820 --> 00:16:19,500
+image as well you can see with the help
+
+336
+00:16:19,500 --> 00:16:21,120
+of secure editor be able to integrate
+
+337
+00:16:21,120 --> 00:16:23,699
+the image as well okay so you can see
+
+338
+00:16:23,699 --> 00:16:26,699
+the menu options are there uh laravel 10
+
+339
+00:16:26,699 --> 00:16:29,279
+series image we able to integrate that
+
+340
+00:16:29,279 --> 00:16:31,380
+we are now working on laravel 10 series
+
+341
+00:16:31,380 --> 00:16:34,560
+okay so that image also be able to
+
+342
+00:16:34,560 --> 00:16:36,000
+integrate here so I'm going to remove
+
+343
+00:16:36,000 --> 00:16:37,560
+this image for now
+
+344
+00:16:37,560 --> 00:16:40,680
+okay so it means that it's working very
+
+345
+00:16:40,680 --> 00:16:43,980
+much fine we can integrate another about
+
+346
+00:16:43,980 --> 00:16:47,220
+us image that belongs to this series
+
+347
+00:16:47,220 --> 00:16:50,699
+only okay we will integrate like see we
+
+348
+00:16:50,699 --> 00:16:53,579
+can also integrate by a URL okay there
+
+349
+00:16:53,579 --> 00:16:55,860
+is another option that we can integrate
+
+350
+00:16:55,860 --> 00:16:58,440
+the image URL as well okay so many
+
+351
+00:16:58,440 --> 00:17:01,680
+options are there okay uh so I'm going
+
+352
+00:17:01,680 --> 00:17:06,359
+to try to integrate some other image uh
+
+353
+00:17:06,359 --> 00:17:08,719
+like
+
+354
+00:17:12,260 --> 00:17:15,419
+okay this one seems to be fine okay
+
+355
+00:17:15,419 --> 00:17:16,619
+perfect
+
+356
+00:17:16,619 --> 00:17:21,179
+so see it is small okay and we are going
+
+357
+00:17:21,179 --> 00:17:23,459
+to try see this one okay so this one
+
+358
+00:17:23,459 --> 00:17:27,660
+looks fine here uh so so this one we
+
+359
+00:17:27,660 --> 00:17:30,600
+have an indicator in about us page so
+
+360
+00:17:30,600 --> 00:17:32,640
+like this uh be able to integrate the
+
+361
+00:17:32,640 --> 00:17:36,299
+tiny MC and CK editor okay so CK editor
+
+362
+00:17:36,299 --> 00:17:38,700
+this is the advanced secure editor we
+
+363
+00:17:38,700 --> 00:17:41,100
+integrated in which all the options are
+
+364
+00:17:41,100 --> 00:17:44,700
+there uh that will make the design of
+
+365
+00:17:44,700 --> 00:17:47,280
+the page really attractive okay so you
+
+366
+00:17:47,280 --> 00:17:49,320
+can try this one at your end and if you
+
+367
+00:17:49,320 --> 00:17:51,000
+if it's an issue you can surely
+
+368
+00:17:51,000 --> 00:17:52,919
+correctly so that's all for now have a
+
+369
+00:17:52,919 --> 00:17:55,820
+nice time goodbye
+
+370
+00:18:07,200 --> 00:18:10,200
+foreign
+
+371
+00:18:12,510 --> 00:18:15,100
+[Applause]
+
+372
+00:18:15,100 --> 00:18:17,750
+[Music]
+
