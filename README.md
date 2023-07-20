@@ -58,6 +58,11 @@ All the application routes are defined in the [web.php](/routes/web.php) file.
 
 ## Installation & Configuration:
 
+1- Open your terminal, navigate to the project root directory, and use the '***git clone https://github.com/AhmedYahyaE/laravel-instagram-clone.git***' command, or just download the ZIP project.
+
+2- Run '***composer install***' command.
+
+3- Run '***npm install***' command (and only in case that you face any issues/errors, run the 'npm audit fix' command), and then run the '***npm run build***' command.
 
 
 
