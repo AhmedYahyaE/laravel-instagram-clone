@@ -1,5 +1,7 @@
 # Instagram Clone Laravel Project
-This is a Laravel (and partially Vue.js ) application which mimics the core functionalities of the popular social media platform, Instagram. The project is built using Laravel framework (and Vue.js), providing a robust and scalable foundation for creating an image-sharing platform. The project also features a User Following System (Follow/Unfollow Button) based on Vue.js Components and making HTTP Requests using Axios JavaScript library. 
+This is a Laravel (and partially Vue.js ) application which mimics the core functionalities of the popular social media platform, Instagram. The project is built using Laravel framework (and Vue.js), providing a robust and scalable foundation for creating an image-sharing platform. The project also features a User Following System (Follow/Unfollow Button) based on Vue.js Components and making HTTP Requests from the frontend using Axios JavaScript library.
+
+Frontend technologies used: Bootstrap (responsive/mobile first design), Vue.js, and Axios JavaScript library.
 
 ## Screenshots:
 ***Homepage:***
@@ -47,3 +49,20 @@ This is a Laravel (and partially Vue.js ) application which mimics the core func
 
 12- Eloquent Pagination.
 
+13- User Profile Management.
+
+14-  User Registration, Authentication and Authorization.
+
+## Application Routes:
+All the application routes are defined in the [web.php](/routes/web.php) file.
+
+## Installation & Configuration:
+
+
+
+
+
+
+
+## Contribution:
+Contributions to my plain PHP/MySQL E-commerce application are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
