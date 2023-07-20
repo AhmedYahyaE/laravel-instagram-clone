@@ -62,7 +62,7 @@ All the application routes are defined in the [web.php](/routes/web.php) file.
 
 2- Navigate/Change into (using the **cd** command) to the project root directory, then run the '***composer install***' command.
 
-3- Run the '***npm install***' command (and only in case that you face any issues/errors, run the 'npm audit fix' command), and then run the '***npm run build***' command.
+3- Run the '***npm install***' command (and only in case you face any issues/errors, run the 'npm audit fix' command), and then run the '***npm run build***' command.
 
 4- Recreate the Symbolic Link between the '[storage/app/public](storage/app/public)' directory and '[public/storage](public/storage)' directory by removing/deleting the [public/storage](public/storage) directory first, then run the '***php artisan storage:link***' command.
 
