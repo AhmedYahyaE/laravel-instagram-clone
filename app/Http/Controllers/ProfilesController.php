@@ -63,7 +63,7 @@ class ProfilesController extends Controller
 
         // If the user updates their profile image by uploading a new image instead of the old one
         if (request('image')) { // If the user opens the edit.blade.php page but doesn't update the image and then clicks Submit, we can assume that the old image is just fine with them
-            // Store user-uploaded file (profile image) in Laravel's "storage" folder/directory, not in the "public" folder, and then to make those profile images "publicly accessible" or "web accessible", we create a Symbolic Link (shortcut) between the "public" folder and "storage" folder by running the command "php artisan storage:link" (after configuring the 'link' array key/index in config/filesystems.php)
+            // Store user-uploaded file (profile image) in Laravel's "storage" folder/directory, not in the "public" folder, and then to make those profile images "publicly accessible" or "web accessible", we create a Symbolic Link (shortcut) between the "public/storage" folder and "storage/app/public" folder by running the command "php artisan storage:link" (after configuring the 'link' array key/index in config/filesystems.php)
             // Note: The "php artisan storage:link" command depends on the 'link' array key/index value of "config/filesystems.php" file. N.B. You can create multiple "Symbolic Links" between multiple folders/directories by editing the value of the 'link' array key/index in config/filesystem.php file
             $imagePath = request('image')->store('profile', 'public');
             $image = \Intervention\Image\Facades\Image::make(public_path("/storage/{$imagePath}"))->fit(1000, 1000); // Intervention Image package

@@ -38,7 +38,7 @@ class PostsController extends Controller
         // dd($data);
 
 
-        // Store user-uploaded file (image) in Laravel's "storage" folder/directory, not in the "public" folder, and then to make those images "publicly accessible" or "web accessible", we create a Symbolic Link (shortcut) between the "public" folder and "storage" folder by running the command "php artisan storage:link" (after configuring the 'link' array key/index in config/filesystems.php)
+        // Store user-uploaded file (image) in Laravel's "storage" folder/directory, not in the "public" folder, and then to make those images "publicly accessible" or "web accessible", we create a Symbolic Link (shortcut) between the "public/storage" folder and "storage/app/public" folder by running the command "php artisan storage:link" (after configuring the 'link' array key/index in config/filesystems.php)
         // Note: The "php artisan storage:link" command depends on the 'link' array key/index value of "config/filesystems.php" file. N.B. You can create multiple "Symbolic Links" between multiple folders/directories by editing the value of the 'link' array key/index in config/filesystem.php file
         $imagePath = request('image')->store('uploads', 'public'); // File Uploads: https://laravel.com/docs/9.x/filesystem#file-uploads
         $image = \Intervention\Image\Facades\Image::make(public_path("/storage/{$imagePath}"))->fit(1200, 1200); // Intervention Image package
