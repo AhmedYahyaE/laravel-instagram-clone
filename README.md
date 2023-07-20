@@ -25,7 +25,7 @@ Frontend technologies used: Bootstrap (responsive/mobile first design), Vue.js, 
 ![instagram-clone-add-new-post](https://github.com/AhmedYahyaE/laravel-instagram-clone/assets/118033266/6b597622-44de-488a-97f6-17ac21a2bfbb)
 
 ## Features:
-1- Using Laravel's "storage" directory (public disk and local driver) for storing user-uploaded images (instead of the regular "public" folder). Additionally, using a Symbolic Link between the "storage" folder and "public" folder to display images throughout the application.
+1- Using Laravel's "storage" directory (public disk and local driver) for storing user-uploaded images (instead of the regular "public" folder). Additionally, using a Symbolic Link between the '[storage/app/public](storage/app/public)' directory and '[public/storage](public/storage)' directory to display images throughout the application.
 
 2- User Following System (Follow/Unfollow Button).
 
@@ -62,9 +62,11 @@ All the application routes are defined in the [web.php](/routes/web.php) file.
 
 2- Run '***composer install***' command.
 
-3- Run '***npm install***' command (and only in case that you face any issues/errors, run the 'npm audit fix' command), and then run the '***npm run build***' command.
+3- Run '***npm install***' command (only in case that you face any issues/errors, run the 'npm audit fix' command), and then run the '***npm run build***' command.
 
+4- Recreate the Symbolic Link between the '[storage/app/public](storage/app/public)' directory and '[public/storage](public/storage)' directory by removing/deleting the [public/storage](public/storage) directory first, then run the '***php artisan storage:link***' command.
 
+5- Run the '***php artisan serve***' command.
 
 
 
