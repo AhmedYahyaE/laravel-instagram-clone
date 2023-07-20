@@ -21,3 +21,29 @@ This is a Laravel (and partially Vue.js ) application which mimics the core func
 ***Adding Posts:***
 
 ![instagram-clone-add-new-post](https://github.com/AhmedYahyaE/laravel-instagram-clone/assets/118033266/6b597622-44de-488a-97f6-17ac21a2bfbb)
+
+## Features:
+1- Using Laravel's "storage" directory (public disk and local driver) for storing user-uploaded images (instead of the regular "public" folder). Additionally, using a Symbolic Link between the "storage" folder and "public" folder to display images throughout the application.
+
+2- User Following System (Follow/Unfollow Button).
+
+3- Authorization using Laravel "Policies" classes.
+
+4- Using Laravel Cache (caching) to optimize performance.
+
+5- Using Eloquent Events / Model Events.
+
+6- Laravel Telescope.
+
+7- Using SQLite, the lightweight database engine.
+
+8- Sending automatic Welcome emails to new registered users (using Mailable and Mailtrap).
+
+9- Making HTTP Requests to the server from the frontend using Axios JavaScript library.
+
+10- Using Vue.js Components.
+
+11 - Using "Intervention Image" package for handling and manipulation of user-uploaded images.
+
+12- Eloquent Pagination.
+
