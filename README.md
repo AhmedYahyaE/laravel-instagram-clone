@@ -25,7 +25,7 @@ Frontend technologies used: Bootstrap (responsive/mobile first design), Vue.js, 
 ![instagram-clone-add-new-post](https://github.com/AhmedYahyaE/laravel-instagram-clone/assets/118033266/6b597622-44de-488a-97f6-17ac21a2bfbb)
 
 ## Features:
-1- Using Laravel's "storage" directory (public disk and local driver) for storing user-uploaded images (instead of the regular "public" folder). Additionally, using a Symbolic Link between the '[storage/app/public](storage/app/public)' directory and '[public/storage](public/storage)' directory to display images throughout the application.
+1- Using Laravel's '[storage](storage)' directory (public disk and local driver) for storing user-uploaded images (instead of the regular '[public](public)' directory). Additionally, using a Symbolic Link between the '[storage/app/public](storage/app/public)' directory and '[public/storage](public/storage)' directory to display images throughout the application.
 
 2- User Following System (Follow/Unfollow Button).
 
