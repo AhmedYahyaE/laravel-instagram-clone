@@ -68,14 +68,14 @@ All the application routes are defined in the [web.php](/routes/web.php) file.
 
 5- Run the '***php artisan serve***' command.
 
-\*\* Ready-to-use registered account credentials you can use to log in:
-> **Email**: **test@test.com**, **Password**: **11111111**
+\*\* Ready-to-use registered accounts credentials you can use to log in:
+> **Profile 1**: email: **test@test.com**, password: **11111111**
 
-> **Email**: **other@email.com**, **Password**: **11111111**
+> **Profile 2**: email: **other@email.com**, **password**: **11111111**
     
-> **Email**: **test3@test.com**, **Password**: **11111111**
+> **Profile 3**: email: **test3@test.com**, **password**: **11111111**
 
-> **Email**: **ramy.morsy@gmail.com**, **Password**: **11111111**
+> **Profile 4**: email: **ramy.morsy@gmail.com**, **password**: **11111111**
 
 ## Contribution:
 Contributions to my Instagram Clone Laravel application are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
