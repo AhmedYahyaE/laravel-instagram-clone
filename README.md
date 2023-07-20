@@ -62,7 +62,7 @@ All the application routes are defined in the [web.php](/routes/web.php) file.
 
 2- Run '***composer install***' command.
 
-3- Run '***npm install***' command (only in case that you face any issues/errors, run the 'npm audit fix' command), and then run the '***npm run build***' command.
+3- Run '***npm install***' command (and only in case that you face any issues/errors, run the 'npm audit fix' command), and then run the '***npm run build***' command.
 
 4- Recreate the Symbolic Link between the '[storage/app/public](storage/app/public)' directory and '[public/storage](public/storage)' directory by removing/deleting the [public/storage](public/storage) directory first, then run the '***php artisan storage:link***' command.
 
@@ -72,4 +72,4 @@ All the application routes are defined in the [web.php](/routes/web.php) file.
 
 
 ## Contribution:
-Contributions to my plain PHP/MySQL E-commerce application are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
+Contributions to my Instagram Clone Laravel application are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
