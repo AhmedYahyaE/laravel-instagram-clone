@@ -77,8 +77,5 @@ All the application routes are defined in the [web.php](/routes/web.php) file.
 
 > **Email**: **ramy.morsy@gmail.com**, **Password**: **11111111**
 
-
-
-
 ## Contribution:
 Contributions to my Instagram Clone Laravel application are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
