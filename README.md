@@ -68,6 +68,15 @@ All the application routes are defined in the [web.php](/routes/web.php) file.
 
 5- Run the '***php artisan serve***' command.
 
+\*\* Ready-to-use registered account credentials you can use to log in:
+> **Email**: **test@test.com**, **Password**: **11111111**
+
+> **Email**: **other@email.com**, **Password**: **11111111**
+    
+> **Email**: **test3@test.com**, **Password**: **11111111**
+
+> **Email**: **ramy.morsy@gmail.com**, **Password**: **11111111**
+
 
 
 
