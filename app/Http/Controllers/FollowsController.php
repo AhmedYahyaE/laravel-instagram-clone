@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class FollowsController extends Controller
 {
@@ -12,7 +13,7 @@ class FollowsController extends Controller
     }
 
     // "Follow/Unfollow" Button Axios call
-    public function store(\App\Models\User $user) { // $user is the the user who will be followed by the authenticated user
+    public function store(User $user) { // $user is the the user who will be followed by the authenticated user
         return auth()->user()->following()->toggle($user->profile); // toggle attach() and detach() in the intermediate/pivot table (toggle addind/removing records in the intermediate table/pivot table)    // Check the following() method in User.php model   // The auth()->user() returns the authenticated user (the user who wants to follow), while toggle() is called on the user \App\Models\User::class which is the user which will be followed by that authenticated user
     }
 

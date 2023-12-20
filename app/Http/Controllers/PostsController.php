@@ -4,6 +4,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Post;
 
 class PostsController extends Controller
 {
@@ -15,7 +16,7 @@ class PostsController extends Controller
 
     public function index() { // Showing the latest posts from all the profiles a user is following in sequential order
         $users = auth()->user()->following()->pluck('profiles.user_id'); // grab the 'user_id'-s of the profiles that the authenticated (logged-in) user is following
-        $posts = \App\Models\Post::whereIn('user_id', $users)->with('user')->latest()->paginate(5); // Paginatin    // grab the posts of the profiles the user is following depending on descending created_at date    // Eager Loading: https://laravel.com/docs/9.x/eloquent-relationships#eager-loading    // Eager Loading with the 'user' relationship method name in Post.php model    // orderBy('created_at', 'DESC') is the same as latest()   // Note that $users is already user_id-s
+        $posts = Post::whereIn('user_id', $users)->with('user')->latest()->paginate(5); // Paginatin    // grab the posts of the profiles the user is following depending on descending created_at date    // Eager Loading: https://laravel.com/docs/9.x/eloquent-relationships#eager-loading    // Eager Loading with the 'user' relationship method name in Post.php model    // orderBy('created_at', 'DESC') is the same as latest()   // Note that $users is already user_id-s
         // dd($posts);
 
 
@@ -56,7 +57,7 @@ class PostsController extends Controller
 
 
     // show a post (the image and its caption) when clicked on in index.blade.php
-    public function show(\App\Models\Post $post) { // Route Model Binding: https://laravel.com/docs/9.x/routing#route-model-binding
+    public function show(Post $post) { // Route Model Binding: https://laravel.com/docs/9.x/routing#route-model-binding
         // dd($post);
 
 

@@ -7,6 +7,8 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
+use App\Models\Profile;
+
 class User extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
@@ -56,7 +58,7 @@ class User extends Authenticatable
 
     // This method is for the "User Following System" and the Follow/Unfollow Button in index.blade.php    // This is a Many To Many Relationship (belongsToMany() method must be used in both models)    // A user can follow many profiles    // Check the followers() method in Profile.php model
     public function following() { // for the Follow/Unfollow Button in index.blade.php    // for the many-to-many relationship between User and Profile, and the intermediate table / pivot table of 2022_05_31_203732_creates_profile_user_pivot_table
-        return $this->belongsToMany(\App\Models\Profile::class);
+        return $this->belongsToMany(Profile::class);
     }
 
 

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
 
 class ProfilesController extends Controller
 {
@@ -12,7 +13,7 @@ class ProfilesController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
     */
     // Render index.blade.php page
-    public function index(\App\Models\User $user)
+    public function index(User $user)
     {
         $follows = auth()->user() ? auth()->user()->following->contains($user->id) : false; //    $follows    is always a Boolean (either true or false)    // auth()->user()->following->contains($user) returns a Boolean (meaning if the currently authenticated/logged-in user follows the passed in user id of the currently opened/displayed profile i.e. Check if the authenticated/logged-in user follows the currently opened/displayed profile)
         // dd($follows);
@@ -37,7 +38,7 @@ class ProfilesController extends Controller
     }
 
 
-    public function edit(\App\Models\User $user) { // render edit.blade.php page (GET Request)    // Route Model Binding: https://laravel.com/docs/9.x/routing#route-model-binding
+    public function edit(User $user) { // render edit.blade.php page (GET Request)    // Route Model Binding: https://laravel.com/docs/9.x/routing#route-model-binding
         // Authorization of the Model Policy class that we created in ProfilePolicy.php class that governs our policy of Editing:
         $this->authorize('update', $user->profile); // authorize(policyMethod, the thing that the policy is applied on)
 
@@ -46,7 +47,7 @@ class ProfilesController extends Controller
     }
 
 
-    public function update(\App\Models\User $user) { // Update HTML Form Submission in edit.blade.php (POST Request)    // Route Model Binding: https://laravel.com/docs/9.x/routing#route-model-binding
+    public function update(User $user) { // Update HTML Form Submission in edit.blade.php (POST Request)    // Route Model Binding: https://laravel.com/docs/9.x/routing#route-model-binding
         // Authorization of the Model Policy class that we created in ProfilePolicy.php class that governs our policy of Updating:
         $this->authorize('update', $user->profile); // YOU CAN'T CLICK SUBMIT UNLESS YOU'RE AUTHORIZED TO UPDATE!!
 

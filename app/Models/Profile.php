@@ -4,6 +4,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
+use App\Models\User;
+
 class Profile extends Model
 {
     use HasFactory;
@@ -26,7 +28,7 @@ class Profile extends Model
 
     // This method is for the "User Following System" and the "Follow/Unfollow" Button in index.blade.php
     public function followers() {
-        return $this->belongsToMany(\App\Models\User::class); // Defining the relationship: A profile belongs to many FOLLOWERS    // This is a Many To Many Relationship (belongsToMany() method must be used in both models)
+        return $this->belongsToMany(User::class); // Defining the relationship: A profile belongs to many FOLLOWERS    // This is a Many To Many Relationship (belongsToMany() method must be used in both models)
     }
 
 }
